@@ -31,7 +31,7 @@ def print_in_reverse(limit):
 
 
 # print_in_reverse(10)
-print_squares_of_even(4)
+# print_squares_of_even(4)
 # print_squares(4)
 # print("Execute before function")
 # print_hello_world_twice()
