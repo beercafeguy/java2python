@@ -15,6 +15,7 @@ class Student(Person):
         self.college = college
         self.year=year
 
+
     def __repr__(self):
         return repr((super().__repr__(),self.college,self.year))
 
@@ -24,3 +25,9 @@ student=Student('Nidhi', 'Delhi','DU','2013')
 
 print(person)
 print(student)
+
+
+class Earth:
+    pass
+
+earth=Earth()
